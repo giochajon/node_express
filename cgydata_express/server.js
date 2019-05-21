@@ -9,17 +9,22 @@ app.get('/', (req, res) => {
     
 })
 
+let a = []
+queries.get_community_list().then(x => formatArray(x));
 app.get('/community', (req, res) => {
-    
-
-var result = queries.get_community_list()
-
-    res.send (result)
+res.send (a)
 })
 
+function formatArray(x){
+	x.forEach(function (item) {
+	a.push(item.name); 
+});
+
+}
+
+
 app.get('/community/:name', (req, res) => {
-    res.send ("<h1>you asked for "+ req.params.name+" </h1>" ) //text example
-    
+    queries.get_community_by_name(req.params.name).then(x => res.send(x));
 })
 
 

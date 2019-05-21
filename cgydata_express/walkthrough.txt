@@ -28,6 +28,9 @@ npm install knex --save-dev
 2.5 install postgress driver
 npm install pg --save-dev
 
+2.6 install library for environment variables 
+npm install dotenv --save-dev
+
 
 3. configuration
 
