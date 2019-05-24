@@ -1,0 +1,16 @@
+best resource
+http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/#connect-to-mongodb
+
+https://devcenter.heroku.com/articles/mongolab#connecting-to-existing-mlab-deployments-from-heroku
+
+
+https://dashboard.heroku.com/apps/mongotests/deploy/heroku-git
+
+mongodb://heroku_1r2h36w6:8aq7rr3ic6vpvf9jgvujgspadb@ds261296.mlab.com:61296/heroku_1r2h36w6
+
+
+npm init
+
+(then enter the app details)
+
+npm install mongodb --save

@@ -1,0 +1,14 @@
+{
+  "name": "herokumongotest",
+  "version": "1.0.0",
+  "description": "test to connect to a heroku node",
+  "main": "runquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovani Chajon",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.2.6"
+  }
+}
